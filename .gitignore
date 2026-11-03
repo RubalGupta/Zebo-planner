@@ -1,0 +1,25 @@
+# secrets / local config
+.env
+# local demo state: draft requests, review decisions, audit log, eval runs
+local_state/
+*.jsonl
+# python caches / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# virtual environments
+.venv/
+venv/
+env/
+# logs
+*.log
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# streamlit secrets (never commit)
+.streamlit/secrets.toml
